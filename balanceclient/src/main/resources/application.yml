@@ -1,0 +1,19 @@
+server:
+port: 8008
+
+spring:
+  application:
+    name: balance-client
+
+#service-url不能写成serviceUrl,否则永远Load balancer does not have available server for client
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+
+
+  #spring:
+    #autoconfigure:
+      #exclude:
+        #org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration

@@ -1,0 +1,18 @@
+server:
+port: 8008
+
+spring:
+  application:
+    name: balance-client
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+
+
+  #spring:
+    #autoconfigure:
+      #exclude:
+        #org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
