@@ -7,7 +7,7 @@
     <groupId>bootcloud</groupId>
     <artifactId>booteureka</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>bookeureka Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <parent>
